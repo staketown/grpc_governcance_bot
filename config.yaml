@@ -1,7 +1,7 @@
 "production": false
 "enableLogs": false
 "discord_enable": true
-"bot_token": "MTEwNTQ0NzE1MjcwMTkzMTU5MA.GgL6EH.i7MbT2-_CanVv1kkCmOatGn-EeJ0RGb7VP4mSU"
+"bot_token": "###"
 "interval_minutes": 10
 "discord":
   "webhook_id": "1104771020017123349"
