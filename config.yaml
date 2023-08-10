@@ -4,8 +4,8 @@
 "bot_token": "###"
 "interval_minutes": 10
 "discord":
-  "webhook_id": "1104771020017123349"
-  "webhook_token": "6nqYbN5W10HcEKpFr1gUlJ8mezb8aCpoDfkmMBUbgVuEMLJCpe7D9Mz6mf_lT_gfNb8f"
+  "webhook_id": "1104771020017123349-"
+  "webhook_token": "6nqYbN5W10HcEKpFr1gUlJ8mezb8aCpoDfkmMBUbgVuEMLJCpe7D9Mz6mf_lT_gfNb8f-"
 "discord_threads":
   "enable_threads_and_reactions": false
   "archive_threads": true
