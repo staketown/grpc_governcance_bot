@@ -16,9 +16,9 @@
     "discord":
       "webhook_id": ""
       "webhook_token": ""
-      "hex_color": "004c96"
+      "hex_color": "4f4783"
       "avatar_url": "https://raw.githubusercontent.com/staketown/images/main/composable-logo.jpg"
       "tags": ""
-    "grpc_url": "composable-testnet-grpc.stake-town.com:10190"
+    "grpc_url": "composable-grpc.stake-town.com:10190"
     "explorer_gov_url": "https://composable.exploreme.pro/proposals/"
 

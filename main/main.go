@@ -49,17 +49,7 @@ func runInterval(cft cosmos_governance_bot.Config) {
 				proposalType = GetPrettyProposalType(proposal.Messages[0].TypeUrl)
 			}
 
-			var description string
-			var title string
-			cascadiaDetails := cosmos_governance_bot.GetIpfsData(proposal.Metadata)
-
-			if cascadiaDetails != nil {
-				description = cascadiaDetails.Details
-				title = cascadiaDetails.Title
-			} else {
-				title = proposal.Metadata
-				description = proposal.Metadata
-			}
+			description := proposal.GetSummary()
 
 			if len(description) > 1024 {
 				description = description[:1000] + " ..."
@@ -76,7 +66,7 @@ func runInterval(cft cosmos_governance_bot.Config) {
 				AvatarURL: cft.Chains[chainName].Discord.AvatarUrl,
 				Embeds: []*discordgo.MessageEmbed{
 					{
-						Title: title,
+						Title: "🏛️ #" + strconv.FormatUint(proposal.Id, 10) + " | " + proposal.Title,
 						Color: int(color),
 						Thumbnail: &discordgo.MessageEmbedThumbnail{
 							URL: cft.Chains[chainName].Discord.AvatarUrl,
