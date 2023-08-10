@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  bot:
+    build: .
+    container_name: grpc-discord-bot
+    volumes:
+      - ${PWD}/config.yaml:/app/config.yaml
+      - ${PWD}/chains.json:/app/chains.json
+    restart: always
+    environment:
+      FLASK_DEBUG: "true"

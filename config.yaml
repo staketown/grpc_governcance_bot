@@ -1,0 +1,24 @@
+"production": false
+"enableLogs": false
+"discord_enable": true
+"bot_token": "MTEwNTQ0NzE1MjcwMTkzMTU5MA.GgL6EH.i7MbT2-_CanVv1kkCmOatGn-EeJ0RGb7VP4mSU"
+"interval_minutes": 10
+"discord":
+  "webhook_id": "1104771020017123349"
+  "webhook_token": "6nqYbN5W10HcEKpFr1gUlJ8mezb8aCpoDfkmMBUbgVuEMLJCpe7D9Mz6mf_lT_gfNb8f"
+"discord_threads":
+  "enable_threads_and_reactions": false
+  "archive_threads": true
+  "thread_archive_minutes": 1440
+
+"chains":
+  "composable":
+    "discord":
+      "webhook_id": ""
+      "webhook_token": ""
+      "hex_color": "004c96"
+      "avatar_url": "https://raw.githubusercontent.com/staketown/images/main/composable-logo.jpg"
+      "tags": ""
+    "grpc_url": "composable-testnet-grpc.stake-town.com:10190"
+    "explorer_gov_url": "https://composable.exploreme.pro/proposals/"
+
